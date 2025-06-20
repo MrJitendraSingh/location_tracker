@@ -56,4 +56,10 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    implementation(libs.play.services.location)
+    implementation(libs.androidx.lifecycle.livedata.ktx)
+    implementation(libs.androidx.work.runtime.ktx)
+    implementation(libs.google.accompanist.permissions)
+//    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
 }
